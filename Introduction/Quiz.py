@@ -41,12 +41,12 @@ questions = [
 
 random.shuffle(questions) #From randoom using Shuffle Metoh to Shuffle Questions
 
-print(colored(''.center(40,'='),'white')) #From termcolor printing Center Aligned Text With White Color
-print(colored("Quiz Starts".center(40," "),'cyan'))
-print(colored(''.center(40,'='),'white')) #From termcolor printing Center Aligned Text With White Color
+print(colored(''.center(40,'='),'red')) #From termcolor printing Center Aligned Text With White Color
+print(colored("Quiz Starts".center(40," "),'yellow'))
+print(colored(''.center(40,'='),'red')) #From termcolor printing Center Aligned Text With White Color
 
 
-Name = input(colored("Enter Your Name :",'light_blue')) #
+Name = input(colored("Enter Your Name :",'green')) #
 
 print("Hello "+Name,"\nYou Will be Haing Total  "+ str(len(questions))+" Questions.")
 
