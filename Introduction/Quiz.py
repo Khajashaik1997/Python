@@ -63,7 +63,7 @@ else:
     print("Invalid Input Please Enter Only (Y/N)")
 
 # Save the results in a CSV file
-with open('Introduction/quiz_results.csv', 'a', newline='') as csvfile:
+with open('quiz_results.csv', 'a', newline='') as csvfile:
     fieldnames = ['Name', 'Score', 'Question1', 'Question2', 'Question3','Question4',]
     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
 
